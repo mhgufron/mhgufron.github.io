@@ -2028,7 +2028,7 @@
     
     <p class="my2 px3">Vivamus viverra augue libero, vitae dapibus lectus accumsan eget. Pellentesque eget ipsum purus. Maecenas leo odio, ornare nec ex id, suscipit porta ipsum. Ut fringilla semper cursus.</p>
 
-    <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" id="imageSlides" layout="responsive" width="1080" height="720" type="slides" loop autoplay delay="3000">
+    <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" id="imageSlides" layout="responsive" width="1080" height="720" type="slides" loop autoplay delay="2000">
         <amp-img src="https://unsplash.it/1080/720?image=1037" layout="fill"></amp-img>
         <amp-img src="https://unsplash.it/1080/720?image=1038" layout="fill"></amp-img>
         <amp-img src="https://unsplash.it/1080/720?image=1039" layout="fill"></amp-img>
@@ -2041,7 +2041,7 @@
     <amp-selector [selected]="selectedSlide" on="select:AMP.setState({selectedSlide:event.targetOption})">
 
     <amp-carousel layout="fixed-height" height="78" class="mt1">
-      <amp-img option=0 selected src="https://unsplash.it/108/72?image=1037" on="tap:imageSlides.goToSlide(index=1)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
+      <amp-img option=0 selected src="https://unsplash.it/108/72?image=1037" on="tap:imageSlides.goToSlide(index=1)" role="button" tabindex="1" layout="fixed" width="108" height="72" autoplay delay="2000"></amp-img>
       <amp-img option=1 src="https://unsplash.it/108/72?image=1038" on="tap:imageSlides.goToSlide(index=2)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
       <amp-img option=2 src="https://unsplash.it/108/72?image=1039" on="tap:imageSlides.goToSlide(index=3)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
       <amp-img option=3 src="https://unsplash.it/108/72?image=1040" on="tap:imageSlides.goToSlide(index=4)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
