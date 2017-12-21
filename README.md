@@ -1,3 +1,3 @@
 # mhgufron.github.io
 
-Build with AMP
+Build with GOOGLE AMP and HTML5
