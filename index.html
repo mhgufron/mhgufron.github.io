@@ -2040,7 +2040,7 @@
     </amp-carousel>
     <amp-selector [selected]="selectedSlide" on="select:AMP.setState({selectedSlide:event.targetOption})">
 
-    <amp-carousel layout="fixed-height" height="78" class="mt1">
+    <amp-carousel layout="fixed-height" height="78" class="mt1" autoplay delay="3000">
       <amp-img option=0 selected src="https://unsplash.it/108/72?image=1037" on="tap:imageSlides.goToSlide(index=1)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
       <amp-img option=1 src="https://unsplash.it/108/72?image=1038" on="tap:imageSlides.goToSlide(index=2)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
       <amp-img option=2 src="https://unsplash.it/108/72?image=1039" on="tap:imageSlides.goToSlide(index=3)" role="button" tabindex="1" layout="fixed" width="108" height="72"></amp-img>
