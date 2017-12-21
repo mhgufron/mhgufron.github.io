@@ -2028,8 +2028,7 @@
     
     <p class="my2 px3">Vivamus viverra augue libero, vitae dapibus lectus accumsan eget. Pellentesque eget ipsum purus. Maecenas leo odio, ornare nec ex id, suscipit porta ipsum. Ut fringilla semper cursus.</p>
 
-    <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" id="imageSlides" layout="responsive" width="1080" height="720" type="slides" loop>
-
+    <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" id="imageSlides" layout="responsive" width="1080" height="720" type="slides" loop autoplay delay="3000">
         <amp-img src="https://unsplash.it/1080/720?image=1037" layout="fill"></amp-img>
         <amp-img src="https://unsplash.it/1080/720?image=1038" layout="fill"></amp-img>
         <amp-img src="https://unsplash.it/1080/720?image=1039" layout="fill"></amp-img>
